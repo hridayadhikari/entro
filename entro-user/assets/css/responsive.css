@@ -1,0 +1,445 @@
+﻿/* ===== Mobile: max 767px ===== */
+@media only screen and (min-width:0px) and (max-width:767px) {
+    section { padding: 60px 0; }
+    .container { padding: 0 15px; }
+    h2 { font-size: 23px; }
+    h3 { font-size: 24px; }
+    h4 { font-size: 19px; }
+    h6 { font-size: 17px; }
+    p { font-size: 14px; }
+    ul li { font-size: 15px; margin: 10px 0; }
+    .btn { font-size: 14px; padding: 8px 36px 7px; }
+    .section-decorative-bg { background-image: unset; }
+    .breadcrumb-item { font-size: 14px; }
+    .navbar-brand { max-width: 200px; }
+    .site-navbar .navbar-nav { border-left: 0; }
+    .site-navbar .navbar-nav .nav-item { margin: 4px 0; }
+    .site-navbar .nav-link { font-size: 16px; }
+    .site-navbar .btn { margin-left: 25px; }
+    .hero-heading { font-size: 26px; }
+    .hero-image-bg { height: 475px; }
+    .hero-section .hero-heading { margin-bottom: 12px; }
+    .hero-section p { padding-right: 0; margin-bottom: 20px; }
+    .hero-image-bg .image-container { width: 100%; height: 420px; }
+    .hero-image-bg .image-container::before { display: none; }
+    .hero-image-bg .image-container::after { display: none; }
+    .hero-section { padding: 60px 0 90px; }
+    .hero-section .hero-heading::before { display: none; }
+    .hero-section .btn::after { display: none; }
+    .features-section .feature-card { padding: 30px 10px; }
+    .features-section img { margin-bottom: 20px; }
+    .features-section .card-heading { margin-bottom: 12px; }
+    .features-section .card-body-content p { font-size: 15px; }
+    .about-section .section-title { margin-bottom: 20px; }
+    .about-section .section-subtitle { margin-bottom: 6px; }
+    .about-side-image { display: none; }
+    .about-section .nav-link { padding: 0 16px !important; }
+    .video-cta-box i { font-size: 26px; }
+    .tab-pane p { margin-bottom: 20px; }
+    .video-cta-box { display: none; }
+    .step-number-badge { margin: 0 auto 20px; }
+    .steps-section { padding: 10px 0 60px; }
+    .steps-inner { padding: 20px 0; background-image: unset; }
+    .step-number-bottom { position: unset; }
+    .steps-inner h4 { margin-bottom: 12px; }
+    .services-section .section-title { margin-bottom: 20px; }
+    .services-section .feature-card { padding: 25px 20px; }
+    .services-section .feature-card img { margin-bottom: 20px; }
+    .services-section .card-heading { margin-bottom: 10px; }
+    .counter-box { padding: 25px 0; height: 100%; }
+    .pricing-section .section-title { margin-bottom: 20px; }
+    .pricing-section .section-subtitle { margin-bottom: 50px; }
+    .pricing-section .nav-link { padding: 20px 0; }
+    .pricing-section .nav-link h6 { margin-bottom: 10px; }
+    .pricing-section .nav-link h3 { font-size: 21px; }
+    .pricing-details-box { padding: 30px; }
+    .pricing-details-box h4 { margin-bottom: 25px; }
+    .pricing-details-box ul li { padding: 0; }
+    .testimonial-section { background-image: unset; background-position: 75px 70px, 97% 94%; }
+    .testimonial-section .section-subtitle { margin-bottom: 50px; }
+    .testimonial-slider h3 { font-size: 20px; margin-bottom: 20px; }
+    .slick-prev { top: 93%; left: 70%; }
+    .slick-next { top: 93%; right: 0%; }
+    .cta-section .section-title { margin-bottom: 20px; }
+    .cta-section .section-subtitle { margin-bottom: 36px; }
+    .blog-section .section-title { margin-bottom: 20px; }
+    .blog-section .section-subtitle { margin-bottom: 50px; }
+    .blog-section span { margin-bottom: 20px; }
+    .blog-section .btn { margin-top: 40px; }
+    .card-heading { margin-bottom: 12px; }
+    .site-footer { padding: 80px 0 0; }
+    .site-footer img { max-width: 280px; margin-bottom: 25px; }
+    .site-footer h6 { margin-bottom: 20px; }
+    .footer-contact-info { padding: 0; }
+    .contact-info-row { margin-bottom: 15px; }
+    .footer-newsletter { padding-left: 0; }
+    .copyright-bar p { font-size: 12px; }
+    /* About Page */
+    .about-me-section h2 { margin-bottom: 15px; }
+    .about-me-section p { margin-bottom: 50px; }
+    .about-me-section .image-container { height: 300px; margin-bottom: 30px; }
+    .vision-side-image { display: none; }
+    .vision-section { padding: 0 0 60px; }
+    .mission-section .video-cta-box { position: unset; }
+    .mission-section { padding: 0 0 60px; }
+    /* Services Page */
+    .service-offer-section { padding: 60px 0; }
+    /* Single Service */
+    .sidebar-category-list h6 { margin-bottom: 30px; }
+    .sidebar-category-list li { margin: 10px 0; }
+    .recent-post-item { padding-bottom: 15px; margin-bottom: 15px; }
+    .service-content-area h4 { margin-bottom: 30px; }
+    .service-content-area p { margin-bottom: 30px; }
+    .service-content-area h6 { margin-bottom: 20px; }
+    .service-content-area img { margin-bottom: 30px; }
+    .sidebar-cta-box { padding: 40px 20px; }
+    .sidebar-cta-box h4 { margin-bottom: 20px; }
+    .tag-button { padding: 9px 12px 8px; }
+    /* Blog Archive */
+    .blog-section h2 { margin-bottom: 30px; }
+    .blog-section .btn { margin-top: 34px; }
+    /* Blog Details */
+    .blog-hero-image { height: 240px; margin-bottom: 20px; }
+    .blog-content-area h4 { margin-bottom: 20px; }
+    .blog-content-area .image-container { height: 230px; margin-bottom: 24px; }
+    .blog-share-bar { margin-top: 30px; margin-bottom: 30px; padding: 16px 40px; }
+    .sidebar-cta-box { padding: 50px 20px; }
+    .sidebar-cta-box h4 { font-size: 19px; }
+    .blog-content-area h2 { margin-bottom: 20px; }
+    /* Contact */
+    .contact-info-panel h4 { margin-bottom: 20px; }
+    .contact-section .contact-info-row { margin-bottom: 20px; }
+    .contact-form-panel p { margin-bottom: 24px; }
+    .contact-form-panel .form-control { padding: 12px 20px; font-size: 14px; }
+    .contact-form-panel ::placeholder { font-size: 14px; }
+    .contact-section .contact-info-row .social-icon-btn { margin-right: 10px; }
+    /* Auth */
+    .auth-logo-header { margin-bottom: 30px; }
+    .auth-form-box .form-label { font-size: 18px; }
+    .auth-form-box .btn { margin-bottom: 30px; }
+    .auth-divider::before { width: 150px; }
+    .auth-divider::after { width: 150px; }
+    .social-login-btn { font-size: 15px; }
+    .pricing-plan-name { font-size: 15px; margin-bottom: 4px; }
+    .pricing-plan-price { font-size: 24px; }
+    .services-section .section-subtitle { margin-bottom: 20px; }
+    .counter-box h2 { font-size: 32px; margin-bottom: 12px; }
+    .counter-box h4 { font-size: 14px; font-weight: 500; }
+    .footer-newsletter .btn { padding: 11px 16px 10px; }
+}
+
+/* ===== Tablet: 768px - 991px ===== */
+@media only screen and (min-width:768px) and (max-width:991px) {
+    section { padding: 60px 0; }
+    h2 { font-size: 24px; }
+    h3 { font-size: 24px; }
+    h4 { font-size: 19px; }
+    h6 { font-size: 17px; }
+    p { font-size: 14px; }
+    ul li { font-size: 16px; margin: 12px 0; }
+    .btn { font-size: 14px; padding: 8px 36px 7px; }
+    .section-decorative-bg { background-image: unset; }
+    .navbar-brand { max-width: 200px; }
+    .site-navbar .navbar-nav { border-left: 0; }
+    .site-navbar .navbar-nav .nav-item { margin: 4px 0; }
+    .site-navbar .nav-link { font-size: 16px; }
+    .site-navbar .btn { margin-left: 25px; }
+    .hero-heading { font-size: 24px; }
+    .hero-image-bg { height: 530px; }
+    .hero-section .hero-heading { margin-bottom: 12px; }
+    .hero-section p { padding-right: 30px; margin-bottom: 30px; }
+    .hero-image-bg .image-container { width: 100%; height: 420px; }
+    .hero-image-bg .image-container::before { bottom: -15px; left: -10px; }
+    .hero-image-bg .image-container::after { top: -10px; right: -10px; }
+    .hero-section { padding: 60px 0 90px; }
+    .hero-section .hero-heading::before { left: 0; }
+    .hero-section .btn::after { left: 0; }
+    .features-section .feature-card { padding: 30px 10px; }
+    .features-section img { margin-bottom: 20px; }
+    .features-section .card-heading { margin-bottom: 12px; }
+    .features-section .card-body-content p { font-size: 15px; }
+    .about-section .section-title { margin-bottom: 20px; }
+    .about-section .section-subtitle { margin-bottom: 6px; }
+    .about-side-image { width: 515px; display: none; }
+    .about-section .nav-link { padding: 0 16px !important; }
+    .video-cta-box i { font-size: 26px; }
+    .tab-pane p { margin-bottom: 20px; }
+    .video-cta-box { width: 210px; height: 68px; bottom: 100px; left: 5%; }
+    .step-number-badge { margin: 0 auto 20px; }
+    .steps-section { padding: 70px 0; }
+    .steps-inner { padding: 20px 0; background-image: unset; }
+    .step-number-bottom { bottom: 0; }
+    .steps-inner h4 { margin-bottom: 12px; }
+    .services-section .section-title { margin-bottom: 20px; }
+    .services-section .feature-card { padding: 25px 20px; }
+    .services-section .feature-card img { margin-bottom: 20px; }
+    .services-section .card-heading { margin-bottom: 10px; }
+    .counter-box { padding: 25px 0; }
+    .pricing-section .section-title { margin-bottom: 20px; }
+    .pricing-section .section-subtitle { margin-bottom: 50px; }
+    .pricing-section .nav-link { padding: 20px 0; }
+    .pricing-section .nav-link h6 { margin-bottom: 10px; }
+    .pricing-section .nav-link h3 { font-size: 21px; }
+    .pricing-details-box { padding: 30px; }
+    .pricing-details-box h4 { margin-bottom: 25px; }
+    .pricing-details-box ul li { padding: 4px 0; }
+    .testimonial-section { background-image: unset; background-position: 75px 70px, 97% 94%; }
+    .testimonial-section .section-subtitle { margin-bottom: 50px; }
+    .testimonial-slider h3 { font-size: 20px; margin-bottom: 20px; }
+    .slick-prev { top: 82%; left: 87%; }
+    .slick-next { top: 82%; right: -13px; }
+    .cta-section .section-title { margin-bottom: 20px; }
+    .cta-section .section-subtitle { margin-bottom: 36px; }
+    .blog-section .section-title { margin-bottom: 20px; }
+    .blog-section .section-subtitle { margin-bottom: 50px; }
+    .blog-section span { margin-bottom: 20px; }
+    .card-heading { margin-bottom: 12px; }
+    .site-footer { padding: 80px 0 0; }
+    .site-footer img { max-width: 280px; margin-bottom: 25px; }
+    .site-footer h6 { margin-bottom: 20px; }
+    .footer-contact-info { padding: 0 0 0 10px; }
+    .contact-info-row { margin-bottom: 15px; }
+    .footer-newsletter { padding-left: 10px; }
+    /* About Page */
+    .about-me-section h2 { margin-bottom: 15px; }
+    .about-me-section p { margin-bottom: 50px; }
+    .about-me-section .image-container { height: 450px; margin-bottom: 30px; }
+    .vision-side-image { display: none; }
+    .vision-section { padding: 60px 0; }
+    .mission-section .video-cta-box { position: unset; }
+    /* Services Page */
+    .service-offer-section { padding: 60px 0; }
+    /* Single Service */
+    .sidebar-category-list h6 { margin-bottom: 30px; }
+    .sidebar-category-list li { margin: 10px 0; }
+    .recent-post-item { padding-bottom: 15px; margin-bottom: 15px; }
+    .service-content-area h4 { margin-bottom: 30px; }
+    .service-content-area p { margin-bottom: 30px; }
+    .service-content-area h6 { margin-bottom: 20px; }
+    .service-content-area img { margin-bottom: 30px; }
+    .sidebar-cta-box { padding: 40px 0; }
+    .sidebar-cta-box h4 { margin-bottom: 20px; }
+    .tag-button { padding: 10px 12px 9px; }
+    /* Blog Archive */
+    .blog-section h2 { margin-bottom: 40px; }
+    .blog-section .btn { margin-top: 20px; }
+    /* Blog Details */
+    .blog-hero-image { height: 240px; margin-bottom: 20px; }
+    .blog-content-area h4 { margin-bottom: 20px; }
+    .blog-content-area .image-container { height: 230px; margin-bottom: 24px; }
+    .blog-share-bar { margin-top: 30px; padding: 16px 40px; }
+    .sidebar-cta-box { padding: 50px 5px; }
+    .sidebar-cta-box h4 { font-size: 19px; }
+    .blog-content-area h2 { margin-bottom: 20px; }
+    /* Contact */
+    .contact-info-panel h4 { margin-bottom: 30px; }
+    .contact-section .contact-info-row { margin-bottom: 24px; }
+    .contact-form-panel p { margin-bottom: 30px; }
+    .contact-form-panel .form-control { padding: 12px 20px; font-size: 15px; }
+    .contact-form-panel ::placeholder { font-size: 15px; }
+    .contact-section .contact-info-row .social-icon-btn { margin-right: 10px; }
+    /* Auth */
+    .auth-logo-header { margin-bottom: 40px; }
+    .auth-form-box .form-label { font-size: 18px; }
+    .auth-form-box .btn { margin-bottom: 30px; }
+    .auth-divider::before { width: 250px; }
+    .auth-divider::after { width: 250px; }
+    .social-login-btn { font-size: 15px; }
+    .pricing-plan-name { font-size: 15px; margin-bottom: 4px; }
+    .pricing-plan-price { font-size: 20px; }
+    .counter-box h2 { margin-bottom: 12px; }
+    .footer-newsletter .btn { padding: 11px 16px 10px; }
+}
+
+/* ===== Small Desktop: 992px - 1199px ===== */
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    section { padding: 70px 0; }
+    h2 { font-size: 28px; }
+    h3 { font-size: 26px; }
+    h4 { font-size: 19px; }
+    h6 { font-size: 17px; }
+    p { font-size: 15px; }
+    ul li { font-size: 16px; margin: 12px 0; }
+    .btn { font-size: 15px; padding: 9px 36px 8px; }
+    .section-decorative-bg { background-image: unset; }
+    .navbar-brand { max-width: 180px; }
+    .site-navbar .navbar-nav .nav-item { margin: 0 3px; }
+    .site-navbar .nav-link { font-size: 14px; }
+    .site-navbar .btn { margin-left: 25px; }
+    .hero-heading { font-size: 42px; }
+    .hero-section p { padding-right: 30px; }
+    .hero-image-bg .image-container { width: 100%; height: 500px; }
+    .hero-section { padding: 70px 0 110px; }
+    .hero-section .hero-heading::before { left: 0; }
+    .hero-section .btn::after { left: 0; }
+    .features-section .feature-card { padding: 30px 10px; }
+    .features-section img { margin-bottom: 20px; }
+    .features-section .card-heading { margin-bottom: 12px; }
+    .features-section .card-body-content p { font-size: 15px; }
+    .about-section .section-title { margin-bottom: 20px; }
+    .about-section .section-subtitle { margin-bottom: 6px; }
+    .about-side-image { width: 515px; }
+    .about-section .nav-link { padding: 0 16px !important; }
+    .video-cta-box i { font-size: 26px; }
+    .tab-pane p { margin-bottom: 20px; }
+    .video-cta-box { width: 210px; height: 68px; bottom: 82px; left: 52%; }
+    .steps-section { padding: 70px 0; }
+    .steps-inner { padding: 20px 0; background-image: unset; }
+    .step-number-bottom { bottom: 0; }
+    .steps-inner h4 { margin-bottom: 12px; }
+    .services-section .section-title { margin-bottom: 20px; }
+    .services-section .feature-card { padding: 25px 20px; }
+    .services-section .feature-card img { margin-bottom: 20px; }
+    .services-section .card-heading { margin-bottom: 10px; }
+    .counter-box { padding: 25px 0; }
+    .pricing-section .section-title { margin-bottom: 20px; }
+    .pricing-section .section-subtitle { margin-bottom: 50px; }
+    .pricing-section .nav-link { padding: 30px 0; }
+    .pricing-section .nav-link h6 { margin-bottom: 10px; }
+    .pricing-details-box { padding: 50px 70px; }
+    .pricing-details-box h4 { margin-bottom: 25px; }
+    .pricing-details-box ul li { padding: 4px 0; }
+    .testimonial-section { background-position: 75px 70px, 97% 94%; }
+    .testimonial-section .section-subtitle { margin-bottom: 50px; }
+    .testimonial-slider h3 { font-size: 20px; margin-bottom: 26px; }
+    .slick-prev { left: 91%; }
+    .slick-next { right: -22px; }
+    .cta-section .section-title { margin-bottom: 20px; }
+    .cta-section .section-subtitle { margin-bottom: 36px; }
+    .blog-section .section-title { margin-bottom: 20px; }
+    .blog-section .section-subtitle { margin-bottom: 50px; }
+    .blog-section span { margin-bottom: 20px; }
+    .card-heading { margin-bottom: 12px; }
+    .blog-section .btn { margin-top: 40px; }
+    .site-footer { padding: 80px 0 0; }
+    .site-footer img { max-width: 280px; margin-bottom: 25px; }
+    .site-footer h6 { margin-bottom: 20px; }
+    .footer-contact-info { padding: 0 0 0 10px; }
+    .contact-info-row { margin-bottom: 15px; }
+    .footer-newsletter { padding-left: 10px; }
+    /* About Page */
+    .about-me-section h2 { margin-bottom: 15px; }
+    .about-me-section p { margin-bottom: 50px; }
+    .about-me-section .image-container { height: 450px; margin-bottom: 30px; }
+    .vision-side-image { width: 505px; }
+    .vision-section { padding: 70px 0; }
+    .mission-section .video-cta-box { bottom: 122px; }
+    .service-offer-section { padding: 70px 0; }
+    .sidebar-category-list h6 { margin-bottom: 30px; }
+    .sidebar-category-list li { margin: 10px 0; }
+    .recent-post-item { padding-bottom: 15px; margin-bottom: 15px; }
+    .service-content-area h4 { margin-bottom: 30px; }
+    .service-content-area p { margin-bottom: 30px; }
+    .service-content-area h6 { margin-bottom: 20px; }
+    .service-content-area img { margin-bottom: 30px; }
+    .sidebar-cta-box { padding: 40px 0; }
+    .sidebar-cta-box h4 { margin-bottom: 20px; }
+    .tag-button { padding: 10px 12px 9px; }
+    .blog-section h2 { margin-bottom: 40px; }
+    .blog-section .btn { margin-top: 20px; }
+    .blog-hero-image { height: 340px; margin-bottom: 30px; }
+    .blog-content-area h4 { margin-bottom: 20px; }
+    .blog-content-area .image-container { height: 230px; margin-bottom: 24px; }
+    .blog-share-bar { margin-top: 30px; padding: 16px 40px; }
+    .sidebar-cta-box { padding: 50px 5px; }
+    .sidebar-cta-box h4 { font-size: 19px; }
+    .blog-content-area h2 { margin-bottom: 20px; }
+    .contact-info-panel h4 { margin-bottom: 30px; }
+    .contact-section .contact-info-row { margin-bottom: 24px; }
+    .contact-form-panel p { margin-bottom: 30px; }
+    .contact-form-panel .form-control { padding: 12px 20px; font-size: 15px; }
+    .contact-form-panel ::placeholder { font-size: 15px; }
+    .auth-logo-header { margin-bottom: 50px; }
+    .auth-form-box .form-label { font-size: 20px; }
+    .auth-form-box .btn { margin-bottom: 30px; }
+    .auth-divider::before { width: 250px; }
+    .auth-divider::after { width: 250px; }
+    .social-login-btn { font-size: 15px; }
+    .pricing-plan-name { margin-bottom: 4px; }
+    .pricing-plan-price { font-size: 26px; }
+}
+
+/* ===== Large Desktop: 1200px - 1500px ===== */
+@media only screen and (min-width:1200px) and (max-width:1500px) {
+    section { padding: 80px 0; }
+    h2 { font-size: 32px; }
+    h3 { font-size: 26px; }
+    h4 { font-size: 22px; }
+    p { font-size: 16px; }
+    ul li { font-size: 16px; margin: 12px 0; }
+    .btn { font-size: 16px; }
+    .section-decorative-bg { background-image: unset; }
+    .site-navbar .navbar-nav .nav-item { margin: 0 8px; }
+    .site-navbar .nav-link { font-size: 16px; }
+    .site-navbar .btn { margin-left: 25px; }
+    .hero-heading { font-size: 48px; }
+    .hero-image-bg .image-container { width: 470px; }
+    .hero-section { padding: 80px 0 130px; }
+    .hero-section .hero-heading::before { left: 0; }
+    .hero-section .btn::after { left: 0; }
+    .features-section .feature-card { padding: 40px 20px 30px; }
+    .features-section img { margin-bottom: 30px; }
+    .features-section .card-heading { margin-bottom: 12px; }
+    .features-section .card-body-content p { font-size: 15px; }
+    .about-section .section-subtitle { margin-bottom: 20px; }
+    .about-side-image { width: 640px; }
+    .about-section .nav-link { padding: 0 16px !important; }
+    .video-cta-box { width: 210px; height: 68px; }
+    .steps-inner { padding: 20px 0; }
+    .steps-inner h4 { margin-bottom: 12px; }
+    .services-section .section-title { margin-bottom: 20px; }
+    .services-section .feature-card { padding: 25px 20px; }
+    .services-section .feature-card img { margin-bottom: 20px; }
+    .services-section .card-heading { margin-bottom: 10px; }
+    .counter-box { padding: 35px 0; }
+    .pricing-section .section-title { margin-bottom: 20px; }
+    .pricing-section .section-subtitle { margin-bottom: 50px; }
+    .pricing-section .nav-link { padding: 30px 0; }
+    .pricing-section .nav-link h6 { margin-bottom: 10px; }
+    .pricing-details-box { padding: 50px 70px; }
+    .pricing-details-box h4 { margin-bottom: 25px; }
+    .pricing-details-box ul li { padding: 4px 0; }
+    .testimonial-section { background-position: 75px 70px, 97% 94%; }
+    .testimonial-slider h3 { font-size: 24px; margin-bottom: 26px; }
+    .cta-section .section-title { margin-bottom: 20px; }
+    .cta-section .section-subtitle { margin-bottom: 36px; }
+    .blog-section .section-title { margin-bottom: 20px; }
+    .blog-section .section-subtitle { margin-bottom: 50px; }
+    .blog-section span { margin-bottom: 20px; }
+    .blog-section .btn { margin-top: 40px; }
+    .card-heading { margin-bottom: 12px; }
+    .site-footer { padding: 80px 0 0; }
+    .site-footer img { max-width: 280px; margin-bottom: 25px; }
+    .site-footer h6 { margin-bottom: 25px; }
+    .footer-contact-info { padding: 0 15px 0 40px; }
+    .contact-info-row { margin-bottom: 15px; }
+    .footer-newsletter { padding-left: 50px; }
+    .about-me-section h2 { margin-bottom: 15px; }
+    .about-me-section p { margin-bottom: 50px; }
+    .about-me-section .image-container { height: 450px; margin-bottom: 30px; }
+    .vision-side-image { width: 615px; }
+    .vision-section { padding: 100px 0; }
+    .service-offer-section { padding: 100px 0; }
+    .sidebar-category-list h6 { margin-bottom: 30px; }
+    .recent-post-item { padding-bottom: 20px; margin-bottom: 20px; }
+    .service-content-area h4 { margin-bottom: 30px; }
+    .service-content-area p { margin-bottom: 30px; }
+    .service-content-area h6 { margin-bottom: 20px; }
+    .service-content-area img { margin-bottom: 30px; }
+    .blog-hero-image { height: 440px; margin-bottom: 30px; }
+    .blog-content-area h4 { margin-bottom: 20px; }
+    .blog-content-area .image-container { height: 240px; margin-bottom: 35px; }
+    .blog-share-bar { margin-top: 35px; }
+    .sidebar-cta-box { padding: 50px 5px; }
+    .sidebar-cta-box h4 { font-size: 22px; }
+    .contact-info-panel h4 { margin-bottom: 30px; }
+    .contact-section .contact-info-row { margin-bottom: 24px; }
+    .contact-form-panel p { margin-bottom: 30px; }
+    .contact-form-panel .form-control { padding: 13px 25px; }
+    .auth-logo-header { margin-bottom: 50px; }
+    .auth-form-box .form-label { font-size: 20px; }
+    .auth-form-box .btn { margin-bottom: 30px; }
+    .auth-divider::before { width: 250px; }
+    .auth-divider::after { width: 250px; }
+    .social-login-btn { font-size: 15px; }
+}
